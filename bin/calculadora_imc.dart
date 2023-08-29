@@ -41,5 +41,5 @@ void main() {
   String interpretacao = interpretarIMC(imc);
 
   print(
-      '${nome.toString()} sua altura é ${altura.toString()} e seu peso é ${peso.toString()}Kg, avaliando esses dados você está $interpretacao');
+      '${nome.toString().toUpperCase()} sua altura é ${altura.toString()} e seu peso é ${peso.toString()}Kg, avaliando esses dados você está $interpretacao');
 }
